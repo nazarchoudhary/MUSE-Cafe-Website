@@ -90,6 +90,83 @@
             .hero-buttons a {
                 width: 100% !important;
             }
+            <style>
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .hero-heading {
+        width: 100%;
+        max-width: 100%;
+        overflow-wrap: break-word;
+        word-break: normal;
+    }
+
+    /* Mobile navbar button */
+    .mobile-menu-button {
+        color: #2B1B16 !important;
+        border-color: #4A2C20 !important;
+        background-color: #FFFDF8 !important;
+    }
+
+    .mobile-menu-button:hover {
+        background-color: #F7F1E8 !important;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .mobile-menu-button {
+            color: #FFFFFF !important;
+            border-color: #FFFFFF !important;
+            background-color: transparent !important;
+        }
+
+        .mobile-menu-button:hover {
+            background-color: #2A1D18 !important;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .hero-heading {
+            font-size: 42px !important;
+            line-height: 1 !important;
+            letter-spacing: -0.02em;
+        }
+
+        .hero-description {
+            width: 100% !important;
+            max-width: 100% !important;
+            font-size: 16px !important;
+            line-height: 1.7 !important;
+        }
+
+        .hero-buttons {
+            width: 100% !important;
+        }
+
+        .hero-buttons a {
+            width: 100% !important;
+        }
+    }
+</style>
         }
     </style>
 </head>
