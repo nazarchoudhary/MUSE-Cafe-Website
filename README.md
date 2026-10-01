@@ -22,10 +22,9 @@ MUSE Café is a modern, responsive café website designed with a warm, cozy and 
 - Contact section
 - Modern café-inspired UI
 
-
 ## Live Link
 
-[Visit MUSE Café Website](PASTE-YOUR-LIVE-LINK-HERE)
+[Visit MUSE Café Website](https://nazarchoudhary.github.io/MUSE-Cafe-Website/)
 
 ## Screenshots
 
@@ -43,7 +42,3 @@ MUSE Café is a modern, responsive café website designed with a warm, cozy and 
 
 ### Contact Page
 ![MUSE Café Contact](screenshots/contact.png)
-
-## Live Link
-
-[Visit MUSE Café Website](https://nazarchoudhary.github.io/MUSE-Cafe-Website/)
